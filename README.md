@@ -25,7 +25,6 @@ It may ask your git hub username and password
 
 
 
-______________-
 
 Learn to branch:
 
@@ -53,7 +52,7 @@ git push -u <remotename i.e origin> <branch>
 once done, next time just git push
 
 
-_________________________________
+
 Push a local repository to a new github repository:
 
 1. open your existing project in vscode
@@ -76,7 +75,12 @@ To remove this commit and modify the file,
 6. get ur remote repository url
 
 7. git remote add origin <remote repo url>
-
+ 
+ if remote origin already added then
+ $git remote -v (to know the already assigned url)
+ 
+ $ git remote set-url origin <ur git repositry repo url>
+ 
 8.git push origin master
 # Pushes the changes in your local repository up to 
 the remote repository you specified as the origin
